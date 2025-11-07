@@ -62,6 +62,7 @@ Page({
     pieData: [],
   },
   onLoad: function () {
+    this.setData({ echarts: echarts });
     this.ecComponent = this.selectComponent('#mychart-dom-pie');
   },
 
